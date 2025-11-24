@@ -1,16 +1,13 @@
-import React from "react";
+import Header from "../components/layout/Header";
 
 export default function Home() {
   return (
-    <div style={{ 
-      display: "flex", 
-      justifyContent: "center", 
-      alignItems: "center", 
-      height: "100vh", 
-      flexDirection: "column"
-    }}>
-      <h1>Welcome to My Next.js App</h1>
-      <p>This is the homepage. Feel free to explore!</p>
+    <div>
+      <Header />
+      <main style={{ padding: "20px" }}>
+        <h1>Welcome to ALX Project 2 Setup!</h1>
+        <p>This is your Next.js + TypeScript + Tailwind starter.</p>
+      </main>
     </div>
   );
 }
